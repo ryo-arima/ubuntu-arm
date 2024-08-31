@@ -28,6 +28,7 @@ jobs:
         context: .
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/ubuntu-arm:latest
+        platforms: linux/arm64
 
     - name: Log out of Docker Hub
       run: docker logout
