@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM arm64v8/ubuntu:latest
 
 WORKDIR /root
 RUN apt update 
