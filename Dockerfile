@@ -9,10 +9,11 @@ RUN apt install -y dpkg-dev \
                    devscripts \
                    build-essential \
                    lintian \
-    		       curl \
-    		       wget \
-    		       unzip \
-		           gh \
+    		   curl \
+    		   wget \
+    		   unzip \
+		   gh \
+		   jq \
     && rm -rf /var/lib/apt/lists/*
 
 # Install Go
